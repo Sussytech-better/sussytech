@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SussyTech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #00ffcc, #00aaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00aaff;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0088cc;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-left: 5px solid #00aaff;
+      padding-left: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+      border: 1px solid transparent;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border: 1px solid #00aaff;
+      box-shadow: 0 0 15px rgba(0,170,255,0.3);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      opacity: 0.8;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>SussyTech</h1>
+  <p>Minecraft Plugin Developer • Paper & Spigot Specialist</p>
+  <a href="#contact" class="btn">Hire Me for your server today</a>
+</header>
+
+<section>
+  <h2>🚀 Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>TotemOffhandPlugin</h3>
+      <p>Improves offhand totem behavior with faster switching and optimized performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>AnchorOptimizer</h3>
+      <p>Reduces respawn anchor delay and makes explosions instant regardless of ping.</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>💼 Clients</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Available for Hire</h3>
+      <p>I work with Astromc and am an owner of crystal club</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>👤 About Me</h2>
+  <p>
+    I'm a Minecraft plugin developer focused on performance, PvP mechanics,
+    and custom server features. I specialize in Paper/Spigot development
+    and building optimized, lag-free systems.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>📩 Contact</h2>
+  <p>Discord: <strong>yourname#0001</strong></p>
+  <p>DM me for commissions, custom plugins, or server work.</p>
+</section>
+
+<footer>
+  <p>© 2026 SussyTech</p>
+</footer>
+
+</body>
+</html>
